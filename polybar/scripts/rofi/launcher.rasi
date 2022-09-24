@@ -111,7 +111,7 @@ element-text {
 }
 
 element selected {
-    background-color:               @bga;
+    background-color:               #1ca078;
     text-color:                     @fg;
 	border:							0px;
     border-radius:                  0px;
