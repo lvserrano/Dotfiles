@@ -119,7 +119,7 @@ echo ""
 echo ""
 
 sleep 3
-paru -S cava nemo-dropbox betterlockscreen downgrade i3lock-color ksuperkey light networkmanager-dmenu-git obmenu-generator perl-linux-desktopfiles polybar timeshift tlpui
+paru -S graphite-cursor-theme-git materia-gtk-theme cava nemo-dropbox betterlockscreen downgrade i3lock-color ksuperkey light networkmanager-dmenu-git obmenu-generator perl-linux-desktopfiles polybar timeshift tlpui
 clear
 
 echo "####################"
