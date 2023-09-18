@@ -21,7 +21,7 @@ echo ""
 echo ""
 echo ""
 
-sudo pacman -S --needed xorg-server xorg-xbacklight xorg-fonts-misc xorg-xfd xorg-xkill xorg-xrandr xorg-xrdb xorg-xset xorg-xev xorg-xmodmap xorg-xwininfo xorg-xsetroot xorg-xinit libx11
+sudo pacman -S --needed xorg xorg-server xorg-xbacklight xorg-fonts-misc xorg-xfd xorg-xkill xorg-xrandr xorg-xrdb xorg-xset xorg-xev xorg-xmodmap xorg-xwininfo xorg-xsetroot xorg-xinit libx11
 
 echo ""
 echo ""
@@ -73,7 +73,7 @@ echo ""
 echo ""
 echo ""
 
-sudo pacman -S --needed ranger highlight trash-cli ueberzug nemo nemo-preview nemo-seahorse nemo-fileroller zip p7zip unzip unrar xarchiver xdg-user-dirs xdg-user-dirs-gtk alacritty xfce4-terminal atril geany geany-plugins vim nvim kitty noto-fonts noto-fonts-emoji terminus-font ttf-dejavu
+sudo pacman -S --needed ranger highlight trash-cli ueberzug nemo nemo-preview nemo-seahorse nemo-fileroller zip p7zip unzip unrar xarchiver xdg-user-dirs xdg-user-dirs-gtk alacritty xfce4-terminal atril geany geany-plugins vim neovim kitty noto-fonts noto-fonts-emoji terminus-font ttf-dejavu
 
 
 echo ""
@@ -104,7 +104,7 @@ echo ""
 echo ""
 echo ""
 
-sudo pacman -S --needed cava nemo-dropbox betterlockscreen downgrade i3lock-color ksuperkey light networkmanager-dmenu-git obmenu-generator perl-linux-desktopfiles picom-ibhagwan-git polybar timeshift tlpui
+sudo pacman -S --needed cava nemo-dropbox betterlockscreen downgrade i3lock-color ksuperkey light networkmanager-dmenu-git obmenu-generator perl-linux-desktopfiles polybar timeshift tlpui
 
 
 echo "####################"
