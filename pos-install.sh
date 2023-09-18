@@ -76,6 +76,7 @@ echo ""
 echo ""
 echo ""
 echo "PRÓXIMOS PASSOS:"
+echo "0 - CONFIGURAR 2 MONITORES"
 echo "1 - PAPEL DE PAREDE"
 echo "2 - HABILITAR POLKIT BSPWMRC"
 echo "3 - INSTALAR ZSH, OH-MY-ZSH, POWERLEVEL 10K, zsh-autosuggestions, zsh-completions, zsh-history-substring-search, zsh-syntax-highlighting, chsh -s /usr/bin/zsh"
@@ -87,4 +88,4 @@ echo "8 - INSTALAR E CONFIGURAR LUNARVIM"
 echo ""
 echo ""
 echo ""
-sleep 5
+sleep 30
