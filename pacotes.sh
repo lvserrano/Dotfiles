@@ -83,7 +83,7 @@ echo ""
 echo ""
 
 sleep 3
-sudo pacman -S --needed ranger highlight trash-cli ueberzug nemo nemo-preview nemo-seahorse nemo-fileroller zip p7zip unzip unrar xarchiver xdg-user-dirs xdg-user-dirs-gtk alacritty xfce4-terminal atril geany geany-plugins vim neovim kitty noto-fonts noto-fonts-emoji terminus-font ttf-dejavu ttf-cascadia-code
+sudo pacman -S --needed ttf-iosevka-nerd ttf-nerd-fonts-symbols ranger highlight trash-cli ueberzug nemo nemo-preview nemo-seahorse nemo-fileroller zip p7zip unzip unrar xarchiver xdg-user-dirs xdg-user-dirs-gtk alacritty xfce4-terminal atril geany geany-plugins vim neovim kitty noto-fonts noto-fonts-emoji terminus-font ttf-dejavu ttf-cascadia-code
 clear
 
 echo ""
