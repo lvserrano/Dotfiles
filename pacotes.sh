@@ -95,7 +95,7 @@ echo ""
 echo ""
 
 sleep 3
-sudo pacman -S --needed acpi autoconf automake binutils bison calc fakeroot gcc gparted gtk-engine-murrine gvfs gvfs-mtp gvfs-afc gvfs-gphoto2 gvfs-smb gvfs-google inotify-tools jq make patch pkg-config polkit polkit-kde-agent powertop python2 sshfs udisks2 wmctrl xclip xdotool xmlstarlet yad sndio
+sudo pacman -S --needed acpi autoconf automake binutils bison calc fakeroot gcc gparted gtk-engine-murrine gvfs gvfs-mtp gvfs-afc gvfs-gphoto2 gvfs-smb gvfs-google inotify-tools jq make patch pkg-config polkit polkit-kde-agent powertop sshfs udisks2 wmctrl xclip xdotool xmlstarlet yad sndio
 clear
 
 echo ""
