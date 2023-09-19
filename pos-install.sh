@@ -40,17 +40,12 @@ echo ""
 echo ""
 sleep 5
 sudo systemctl enable NetworkManager
-sudo sed -i 's|#AutoEnable=false|AutoEnable=true|g' /etc/bluetooth/main.conf
+sudo sed -i '/^#AutoEnable=false/s/^#//' /etc/bluetooth/main.conf
+sudo sed -i 's/AutoEnable=false/AutoEnable=true/' /etc/bluetooth/main.conf
 sudo systemctl enable bluetooth
-sudo systemctl enable cups.service
 sudo systemctl enable sshd
 sudo systemctl enable avahi-daemon
 sudo systemctl enable tlp
-sudo systemctl enable reflector.timer
-sudo systemctl enable fstrim.timer
-sudo systemctl enable acpid
-sudo ntpd -qg
-sudo systemctl enable ntpd.service
 clear
 echo ""
 echo ""
@@ -60,7 +55,7 @@ echo ""
 echo ""
 echo ""
 sleep 5
-sudo reflector --latest 50 -a 6 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --verbose --country Brazil --country Argentina --age 12 --protocol https --protocol http --sort rate --save /etc/pacman.d/mirrorlist
 clear
 echo ""
 echo ""
