@@ -30,7 +30,9 @@ echo ""
 echo ""
 echo ""
 sleep 5
-sudo mv 00-keyboard.conf 30-touchpad.conf /etc/X11/xorg.conf.d/
+sudo mv 00-keyboard.conf /etc/X11/xorg.conf.d/
+sudo mv 30-touchpad.conf /etc/X11/xorg.conf.d/
+
 echo ""
 echo ""
 echo ""
