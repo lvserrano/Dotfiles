@@ -3,6 +3,7 @@
 # 
 #	ENCERRAR PROCESSOS
 #
+
 killall -q sxhkd
 killall -q dunst
 killall -q polybar
@@ -13,6 +14,7 @@ killall -USR1 termite
 #
 # ESPERAR QUE O PROCESSO ESTEJA ENCERRADO
 #
+
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 while pgrep -u $UID -x sxhkd >/dev/null; do sleep 1; done
 while pgrep -u $UID -x dunst >/dev/null; do sleep 1; done
@@ -22,6 +24,7 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 #
 #	INICIAR PROCESSOS
 #
+
 polybar top &
 polybar bottom &
 feh --bg-scale ~/Images/Backgrounds/signs.jpg &
@@ -33,8 +36,15 @@ mpd &
 ~/.config/polybar/scripts/updates.sh &
 
 #
-#	CONFIGURAÇÃO DA JANELA
+#	CONFIGURAÇÃO DA JANELA E DO MONITOR
 #
+
+xrandr -q | grep -w connected
+# colocar no bspwrc
+if [ $(xrandr -q | grep -w connected | wc -l) -gt 1 ]; then
+  xrandr --output HDMI1 --primary --mode 1920x1080 --rotate normal --output eDP1 --mode 1920x1080 --rotate normal --left-of HDMI1
+fi
+
 
 #NUMEROS DE AREAS DE TRABALHO
 bspc monitor -d 1 2 3 4 5 6 7 8 9
