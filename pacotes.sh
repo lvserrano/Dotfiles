@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 echo ""
 echo ""
 echo ""
@@ -47,7 +46,7 @@ echo ""
 echo ""
 
 sleep 3
-sudo pacman -S --needed bspwm wmname sxhkd xclip i3-wm
+sudo pacman -S --needed bspwm wmname sxhkd xclip
 clear
 
 echo ""
@@ -71,7 +70,7 @@ echo ""
 echo ""
 
 sleep 3
-sudo pacman -S --needed alsa-plugins alsa-tools alsa-utils pavucontrol pulseaudio pulseaudio-alsa pulseaudio-equalizer-ladspa viewnior gwenview ffmpeg ffmpegthumbnailer mpc mpd mplayer ncmpcpp tumbler feh alsa-card-profiles alsa-card-profiles alsa-plugins alsa-firmware gst-libav gst-plugin-pipewire gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gstreamer gstreamer-vaapi pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber x264 x265 xvidcore
+sudo pacman -S --needed alsa-plugins alsa-tools alsa-utils pavucontrol viewnior gwenview ffmpeg ffmpegthumbnailer mpc mpd mplayer ncmpcpp tumbler feh alsa-card-profiles alsa-card-profiles alsa-plugins alsa-firmware gst-libav gst-plugin-pipewire gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gstreamer gstreamer-vaapi pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber x264 x265 xvidcore
 clear
 
 echo ""
@@ -119,7 +118,7 @@ echo ""
 echo ""
 
 sleep 3
-paru -S graphite-cursor-theme-git materia-gtk-theme cava nemo-dropbox betterlockscreen downgrade i3lock-color ksuperkey light networkmanager-dmenu-git obmenu-generator perl-linux-desktopfiles polybar timeshift tlpui
+paru -S graphite-cursor-theme-git materia-gtk-theme cava nemo-dropbox downgrade ksuperkey light networkmanager-dmenu-git obmenu-generator perl-linux-desktopfiles polybar timeshift tlpui
 clear
 
 echo "####################"
