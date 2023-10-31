@@ -37,6 +37,7 @@ sudo systemctl enable bluetooth
 sudo systemctl enable sshd
 sudo systemctl enable avahi-daemon
 sudo systemctl enable tlp
+sudo systemctl enable fstrim.timer
 clear
 echo ""
 echo ""
