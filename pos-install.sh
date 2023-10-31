@@ -25,16 +25,6 @@ clear
 echo ""
 echo ""
 echo ""
-echo "ARQUIVOS DE CONFIGURAÇÃO DE TECLADO E MOUSEPAD"
-echo ""
-echo ""
-echo ""
-sleep 5
-sudo mv ./30-touchpad.conf /etc/X11/xorg.conf.d/
-sudo mv ./00-keyboard.conf /etc/X11/xorg.conf.d/
-echo ""
-echo ""
-echo ""
 echo "ATIVANDO SERVIÇOS"
 echo ""
 echo ""
@@ -55,7 +45,7 @@ echo "REFLECTOR"
 echo ""
 echo ""
 echo ""
-sleep 5
+sleep 2
 sudo reflector --verbose --country Brazil --country Argentina --age 12 --protocol https --protocol http --sort rate --save /etc/pacman.d/mirrorlist
 clear
 echo ""
@@ -81,7 +71,9 @@ echo "5 - CONFIGURAR TIMESHIFT"
 echo "6 - CONFIGURAR ZRAM"
 echo "7 - CONFIGURAR PRELOAD"
 echo "8 - INSTALAR E CONFIGURAR LUNARVIM"
+echo "mv ./30-touchpad.conf /etc/X11/xorg.conf.d/"
+echo "mv ./00-keyboard.conf /etc/X11/xorg.conf.d/"
 echo ""
 echo ""
 echo ""
-sleep 30
+sleep 5
