@@ -22,7 +22,7 @@ echo ""
 echo ""
 echo ""
 
-sudo pacman -S --needed xorg xorg-server xorg-xbacklight xorg-fonts-misc xorg-xfd xorg-xkill xorg-xrandr xorg-xrdb xorg-xset xorg-xev xorg-xmodmap xorg-xwininfo xorg-xsetroot xorg-xinit libx11
+sudo pacman -S --needed xorg xorg-apps xorg-drivers xorg-fonts libx11
 clear
 
 echo ""
