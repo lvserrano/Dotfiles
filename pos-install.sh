@@ -160,6 +160,12 @@ PKGS=(
     'ttf-cascadia-code'          # Família de fontes Cascadia Code
     'nerd-fonts'                 # Conjunto de fontes com ícones e glifos adicionais
     # PACOTES DO SITEMA ------------------------------------------------------
+    'sddm'
+    'kde-applications-meta'
+    'flatpak'
+    'plasma'
+    'fwupd'
+    'packagekit-qt5'
     'acpi'                   # Utilitário para mostrar informações sobre dispositivos ACPI
     'autoconf'               # Ferramenta de configuração automática de software
     'automake'               # Ferramenta para geração automática de Makefiles
@@ -324,6 +330,7 @@ sudo sed -i '/^#AutoEnable=false/s/^#//' /etc/bluetooth/main.conf
 sudo sed -i 's/AutoEnable=false/AutoEnable=true/' /etc/bluetooth/main.conf
 sudo systemctl enable bluetooth
 sudo systemctl enable sshd
+sudo systemctl enable sddm.service
 sudo systemctl enable avahi-daemon
 sudo systemctl enable tlp
 sudo systemctl enable fstrim.timer
